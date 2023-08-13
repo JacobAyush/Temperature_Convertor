@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(38,247,127);
+    background: linear-gradient(90deg, rgba(38,247,127,1) 0%, rgba(84,191,245,1) 100%);
+    color: rgb(5, 0, 4);
+}
+
+.temperature-convertor{
+    background-color: rgba(209, 203, 203, 0.61);
+    width: 100%;
+    min-width: 320px;
+    padding: 20px 25px 45px;
+    border-radius: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -5px -5px 100px 0 black inset,5px 5px 0px 0 black;
+    backdrop-filter: blur(21px);
+}
+
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.title{
+    color: rgb(11, 67, 248);
+    font-size: 3rem;
+}
+
+.result{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.result-heading{
+    color: black;
+    font-size: 2rem;
+    font-weight: 600px;
+}
+
+.celsius-value{
+    border-bottom: 2px solid black;
+    padding: 10px;
+    transition: all 0.45s ease;
+}
+
+.degree-type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.degree-field{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+
+label{
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+input,select{
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(252, 3, 169);
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+input:focus{
+    border: 1px solid blueviolet;
+}
+
+option{
+    font-size: 16px;
+    background-color: rgb(43, 226, 98);
+    color: rgb(3, 61, 252);
+}
+
+#convert-btn{
+    border: none;
+    outline: none;
+    background: rgb(38,44,247);
+    background: linear-gradient(90deg, rgba(38,44,247,1) 0%, rgba(228,84,245,1) 100%);
+    color: white;
+    padding: 12px 80px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    transition: all 0.3s ease-in;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#convert-btn{
+    background: rgb(38,44,247);
+    background: linear-gradient(90deg, rgba(38,44,247,1) 0%, rgba(228,84,245,1) 100%);
+}
+
+.fa{
+    margin-left: -12px;
+    margin-right: 80px;
+}
+
+#Creater{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    /* text-align: center; */
+}
